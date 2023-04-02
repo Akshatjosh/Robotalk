@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Robotic Answering Machine</title>
+    <style>
+      body {
+        background-color: #f2f2f2;
+        font-family: Arial, sans-serif;
+      }
+
+      h1 {
+        color: #333;
+        text-align: center;
+      }
+      h1,
+      p {
+        text-align: center;
+      }
+      p {
+        color: crimson;
+        font-size: 18px;
+      }
+
+      form {
+        display: flex;
+        justify-content: center;
+        margin-top: 20px;
+      }
+
+      input[type="text"] {
+        width: 60%;
+        padding: 10px;
+        border-radius: 5px;
+        border: 1px solid #ccc;
+        margin-right: 10px;
+      }
+
+      input[type="submit"] {
+        padding: 10px 20px;
+        border-radius: 5px;
+        border: none;
+        background-color: #4caf50;
+        color: #fff;
+        cursor: pointer;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Welcome to Robotic answering machine 1.O created by Akshat</h1>
+    <p>I am Kyouro</p>
+    <p>{{ message }}</p>
+    <form method="post">
+      <input type="text" name="user_input" />
+      <input type="submit" value="Send" />
+    </form>
+  </body>
+</html>
